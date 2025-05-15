@@ -70,7 +70,7 @@ skills:
 
   column1:
     items:
-      - label: "PHP" #0-10 progress in dots
+      - label: "PP" #0-10 progress in dots
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         value: "85" #0-100 progress in %
 
