@@ -43,9 +43,9 @@ layout: default
 	</div>
 	<div class="image">
 		{% if page.full_image != nil %}
-		<div class="img scrolla-element-anim-1 scroll-animate" data-animate="active" style="background-image: url({{ page.full_image | relative_url }});"></div>
+		<div class="img scrolla-element-anim-1 scroll-animate" data-animate="active" style="background-image: url('{{ page.full_image | relative_url }}');"></div>
 		{% else %}
-		<div class="img scrolla-element-anim-1 scroll-animate" data-animate="active" style="background-image: url({{ page.image | relative_url }});"></div>
+		<div class="img scrolla-element-anim-1 scroll-animate" data-animate="active" style="background-image: url('{{ page.image | relative_url }}');"></div>
 		{% endif %}
 	</div>
 </div>
