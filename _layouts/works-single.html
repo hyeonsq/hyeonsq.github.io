@@ -69,7 +69,7 @@ layout: default
 	<!-- Image -->
 	<div class="m-image-large">
 		<div class="image">
-			<div class="img js-parallax" style="background-image: url({{ page.full_image | relative_url }});"></div>
+			<div class="img js-parallax" style="background-image: url('{{ page.full_image | relative_url }}');"></div>
 		</div>
 	</div>
 
@@ -172,7 +172,7 @@ layout: default
 <!-- Section - Video -->
 <div class="section section-inner m-video-large">
 	<div class="video">
-		<div class="img js-parallax" style="background-image: url({{ page.video.poster | relative_url }});"></div>
+		<div class="img js-parallax" style="background-image: url('{{ page.video.poster | relative_url }}');"></div>
 		<iframe class="js-video-iframe" data-src="https://www.youtube.com/embed/{{ page.video.id }}?showinfo=0&amp;rel=0&amp;autoplay=1"></iframe>
 		<div class="play"></div>
 	</div>
