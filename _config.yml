@@ -29,10 +29,10 @@
 # in the templates via {{ site.myvariable }}.
 
 # basic settings
-title: "Luique - CV Resume & Personal Portfolio Jekyll Theme"
+title: "김현석 기술 블로그"
 email: "your-email@example.com"
-description: "Jekyll Resume / CV / vCard / Portfolio and Personal Portfolio by bslthemes"
-author: "Luique"
+description: "Technical Blog"
+author: "hyeon"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hyeonsq.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%Y-%m-%d"
